@@ -1,0 +1,136 @@
+.form-container {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #18181b;
+  margin-bottom: 12px;
+}
+
+.form-container p {
+  font-size: 1.08rem;
+  color: #76768a;
+  margin-bottom: 26px;
+}
+
+.getting-started-form,
+.credentials-form {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.getting-started-form label,
+.credentials-form label {
+  font-weight: 600;
+  color: #24243c;
+  margin-bottom: 7px;
+  font-size: 1.02rem;
+}
+
+.getting-started-form input[type="text"],
+.getting-started-form input[type="url"],
+.getting-started-form input[type="password"],
+.getting-started-form input[type="email"],
+.credentials-form input[type="text"],
+.credentials-form input[type="url"],
+.credentials-form input[type="password"],
+.credentials-form input[type="email"] {
+  background: #f7f7fa;
+  border: 1.5px solid #e4e4ef;
+  border-radius: 11px;
+  padding: 14px 15px;
+  font-size: 1.09rem;
+  outline: none;
+  transition: border 0.18s;
+}
+
+.getting-started-form input:focus,
+.credentials-form input:focus {
+  border: 1.5px solid #6e54ff;
+}
+
+.icon-upload-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-upload-row button {
+  border: 1.5px solid #dadaf7;
+  background: #f4f3fa;
+  color: #6e54ff;
+  border-radius: 8px;
+  padding: 7px 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.14s, border 0.14s;
+}
+
+.icon-upload-row button:hover {
+  background: #ecebfd;
+  border: 1.5px solid #6e54ff;
+}
+
+.bot-icon-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #ecebfd;
+  border: 1.5px solid #e2e2f7;
+}
+
+.color-picker-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-picker-row input[type="color"] {
+  border: none;
+  background: none;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+}
+
+.primary-btn {
+  background: #6e54ff;
+  color: #fff;
+  border: none;
+  border-radius: 11px;
+  padding: 15px 0;
+  font-size: 1.13rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 12px 0 rgba(112,87,255,0.12);
+  transition: background 0.13s;
+}
+
+.primary-btn:hover {
+  background: #583be0;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #6e54ff;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 1rem;
+  align-self: flex-start;
+  transition: color 0.15s;
+}
+
+.back-btn:hover {
+  color: #583be0;
+}
