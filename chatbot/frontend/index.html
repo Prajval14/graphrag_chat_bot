@@ -1,12 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Made with Nestle Chatbot</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Chatbot</title>
+  <script>
+    // USER CUSTOMIZATION HERE
+    window.chatbotConfig = {
+      botName: "TesttBot",
+      botIcon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5G_lXK5cROdWBjbkK6h3rghuHW1pcfFwDfg&s",
+      botColor: "green"
+    };
+  </script>
+</head>
+<body>
+  <div id="chatbot-root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
